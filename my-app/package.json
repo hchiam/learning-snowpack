@@ -1,0 +1,27 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npx snowpack --clean",
+    "start": "serve ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "snowpack": {
+    "webDependencies": [
+      "vue/dist/vue.esm.browser.js",
+      "http-vue-loader/src/httpVueLoader.js"
+    ]
+  },
+  "dependencies": {
+    "http-vue-loader": "^1.4.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "serve": "^11.3.0",
+    "snowpack": "^1.1.0"
+  }
+}

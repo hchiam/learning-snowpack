@@ -3,25 +3,26 @@
   "version": "1.0.0",
   "private": true,
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "",
-    "build": "",
-    "test": "jest --passWithNoTests",
-    "lint": "eslint src/*.js --max-warnings=0",
-    "fix": "eslint --fix src/*.js"
+    "babel": "babel src --out-dir lib --watch",
+    "start": "npx serve",
+    "build": ""
   },
   "author": "hchiam",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^6.4.0",
-    "eslint-config-google": "^0.14.0",
-    "husky": "^3.0.9",
-    "jest-cli": "^24.9.0"
+  "dependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "react": "npm:@reactesm/react@^0.1.0",
+    "react-dom": "npm:@reactesm/react-dom@^0.1.1",
+    "serve": "^11.3.0"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint && npm test"
-    }
+  "devDependencies": {
+    "jest-cli": "^24.9.0",
+    "snowpack": "^1.1.0"
   }
 }

@@ -1,23 +1,5 @@
-/* eslint-disable require-jsdoc */
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App.js";
 
-const solution = (a, b) => {
-  return a + b;
-};
-
-function solutionWrapper(...parameters) {
-  return solution(...parameters);
-}
-
-// function ListNode(val) {
-//   this.val = val;
-//   this.next = null;
-// }
-
-// function TreeNode(val) {
-//   this.val = val;
-//   this.left = this.right = null;
-// }
-
-module.exports = {
-  solutionWrapper,
-};
+ReactDOM.render(<App />, document.getElementById("root"));

@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    ["@babel/plugin-transform-react-jsx"],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    ["snowpack/assets/babel-plugin.js", {}]
+  ],
+  "presets": [
+    "@babel/react",
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": true
+        },
+        "modules": "false",
+        "useBuiltIns": false
+      }
+    ]
+  ]
+}
