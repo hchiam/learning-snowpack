@@ -19,9 +19,8 @@ You can generate a [dependency graph](https://github.com/hchiam/learning-depende
 ## Or just
 
 ```bash
-npx snowpack-init my-app
-cd my-app
-npm run start # or: npm run dev
+npx snowpack-init my-app; cd my-app; npm run start
+# (watch for any option prompts that you need to respond to)
 ```
 
 ## Or use CSA
