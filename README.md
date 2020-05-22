@@ -16,12 +16,18 @@ You can generate a [dependency graph](https://github.com/hchiam/learning-depende
 
 <https://www.youtube.com/watch?v=zjhP1zSj5oo>
 
-<https://github.com/pikapkg/create-snowpack-app/tree/master/templates/app-template-svelte>
-
 ## Or just
 
 ```bash
 npx snowpack-init my-app
 cd my-app
 npm run start # or: npm run dev
+```
+
+## Or use CSA
+
+Svelte template: <https://github.com/pikapkg/create-snowpack-app/tree/master/templates/app-template-svelte>
+
+```bash
+npx create-snowpack-app new-dir --template @snowpack/app-template-svelte --use-yarn
 ```
