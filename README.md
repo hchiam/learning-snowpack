@@ -16,6 +16,8 @@ You can generate a [dependency graph](https://github.com/hchiam/learning-depende
 
 <https://www.youtube.com/watch?v=zjhP1zSj5oo>
 
+<https://github.com/pikapkg/create-snowpack-app/tree/master/templates/app-template-svelte>
+
 ## Or just
 
 ```bash
