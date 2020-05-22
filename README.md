@@ -30,3 +30,5 @@ Svelte template: <https://github.com/pikapkg/create-snowpack-app/tree/master/tem
 ```bash
 npx create-snowpack-app new-dir --template @snowpack/app-template-svelte --use-yarn
 ```
+
+(Note to self: the steps after didn't seem to work for me when I last tried.)
