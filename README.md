@@ -16,13 +16,13 @@ From scratch: (set up package.json and index.html and then run bash commands)
 ```bash
 npm init
 yarn add --dev snowpack
-yarn add react react-dom
 yarn start
 ```
 
 Using this repo:
 
 ```bash
+cd new
 yarn
 yarn start
 ```
