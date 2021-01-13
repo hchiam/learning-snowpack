@@ -11,7 +11,7 @@ Only build a file once, and only rebuild it _**if it changes**_, instead of rebu
 
 ## New notes:
 
-From scratch: (set up package.json and index.html and then run bash commands)
+From scratch: create a folder, set up package.json with `"start": "snowpack dev"`, and create index.html. Then run these CLI commands:
 
 ```bash
 npm init
