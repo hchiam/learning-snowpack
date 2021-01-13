@@ -4,6 +4,36 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 Only build a file once, and only rebuild it _**if it changes**_, instead of rebuilding on every change and going through the dependency graph - this means build times don't increase with your project size; [sounds like the future of web dev (compared to webpack, parcel, and rollup)](https://www.youtube.com/watch?v=5IG4UmULyoA).
 
+**Click to expand:**
+
+<details>
+<summary>New notes</summary>
+
+## New notes:
+
+From scratch: (set up package.json and index.html and then run bash commands)
+
+```bash
+npm init
+yarn add --dev snowpack
+yarn add react react-dom
+yarn start
+```
+
+Using this repo:
+
+```bash
+yarn
+yarn start
+```
+
+</details>
+
+<details>
+<summary>Old notes</summary>
+
+## Old notes:
+
 [![generator-hchiam-learning](https://img.shields.io/badge/built%20with-generator--hchiam--learning-brightgreen.svg)](https://github.com/hchiam/generator-hchiam-learning) [![Build Status](https://travis-ci.org/hchiam/learning-snowpack.svg?branch=master)](https://travis-ci.org/hchiam/learning-snowpack) [![Coverage Status](https://coveralls.io/repos/github/hchiam/learning-snowpack/badge.svg?branch=master)](https://coveralls.io/github/hchiam/learning-snowpack?branch=master)
 
 You can generate a [dependency graph](https://github.com/hchiam/learning-dependency-cruiser) with `bash show_dep_graph.sh`.
@@ -36,3 +66,5 @@ npx create-snowpack-app new-dir --template @snowpack/app-template-svelte --use-y
 ```
 
 (Note to self: the steps after didn't seem to work for me when I last tried.)
+
+</details>

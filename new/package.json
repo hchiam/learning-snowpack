@@ -1,0 +1,28 @@
+{
+  "name": "learning-snowpack",
+  "version": "1.0.0",
+  "description": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+  "main": "index.js",
+  "scripts": {
+    "init": "snowpack init",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hchiam/learning-snowpack.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hchiam/learning-snowpack/issues"
+  },
+  "homepage": "https://github.com/hchiam/learning-snowpack#readme",
+  "devDependencies": {
+    "snowpack": "^3.0.3"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
