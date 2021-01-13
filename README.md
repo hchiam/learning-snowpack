@@ -27,6 +27,8 @@ yarn
 yarn start
 ```
 
+If you're using purely `npm` and not `yarn`, you can easily figure out the equivalent `npm` commands: <https://github.com/hchiam/learning-yarn>
+
 </details>
 
 <details>
