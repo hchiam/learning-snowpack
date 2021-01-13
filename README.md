@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-Only build a file once, and only rebuild it _**if it changes**_, instead of rebuilding on every change and going through the dependency graph; [sounds like the future of web dev (compared to webpack, parcel, and rollup)](https://www.youtube.com/watch?v=5IG4UmULyoA).
+Only build a file once, and only rebuild it _**if it changes**_, instead of rebuilding on every change and going through the dependency graph - this means build times don't increase with your project size; [sounds like the future of web dev (compared to webpack, parcel, and rollup)](https://www.youtube.com/watch?v=5IG4UmULyoA).
 
 [![generator-hchiam-learning](https://img.shields.io/badge/built%20with-generator--hchiam--learning-brightgreen.svg)](https://github.com/hchiam/generator-hchiam-learning) [![Build Status](https://travis-ci.org/hchiam/learning-snowpack.svg?branch=master)](https://travis-ci.org/hchiam/learning-snowpack) [![Coverage Status](https://coveralls.io/repos/github/hchiam/learning-snowpack/badge.svg?branch=master)](https://coveralls.io/github/hchiam/learning-snowpack?branch=master)
 
